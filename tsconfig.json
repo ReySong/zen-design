@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            "/@/*": ["*"],
+            "/@components/*": ["component/*"],
+            "/#/*": ["../public/*"]
+        },
+        "moduleResolution": "node",
+        "module": "ESNEXT",
+        "target": "es6",
+        "jsx": "react",
+        "esModuleInterop": true
+    }
+}
